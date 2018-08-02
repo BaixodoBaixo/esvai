@@ -17,6 +17,13 @@ class ViewController: UIViewController {
     
     }
 
+    @IBOutlet weak var label: UILabel!
+    
+    
+    @IBAction func tapme(_ sender: UIButton) {
+        label.text = "fuck u"
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
